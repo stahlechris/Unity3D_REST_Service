@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Numerics;
+using Newtonsoft.Json;
+
 namespace Unity3d_Restful_service.Contracts
 {
+    [JsonObject, Serializable]
     public struct Skeleton
     {
         public Joint[] Joints;
@@ -36,7 +39,7 @@ namespace Unity3d_Restful_service.Contracts
             }
         }
     }
-
+    [JsonObject, Serializable]
     public struct Joint
     {
         public float[] Position;

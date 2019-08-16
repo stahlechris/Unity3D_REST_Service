@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Unity3d_Restful_service.Contracts;
-
+using Newtonsoft.Json;
 namespace Unity3d_Restful_service.Controllers
 {
     /// <summary>
@@ -18,7 +18,7 @@ namespace Unity3d_Restful_service.Controllers
     public class PlayersController : ControllerBase
     {
         //make a list of players
-        private static List<Player> Players = new List<Player>()
+        public static List<Player> Players = new List<Player>()
         {
             //initialize 3 players in this list
         new Player
@@ -41,13 +41,29 @@ namespace Unity3d_Restful_service.Controllers
         }
     };
 
-    
+        /// <summary>
+        /// I am testing returning a JsonResult vs string.
+        /// Returning a string formats the data better, and allows for a client to correctly deserialize it.
+        /// I am testing this because I could not get my client to correctly deserialize the data when it is sent as a JsonResult.
+        ///
+        /// TO TEST RETURNING A STRING VS JSONRESULT:
+        /// 1. uncomment what is commented out in the Get method and comment out what was uncommented
+        /// 2. Go into the Unity project, into the Game.cs -> switcheroo the commenteds
+        /// 3. Go to RestClient.cs -> switcheroo the commenteds
+        /// </summary>
+        /// <returns></returns>
         // GET api/players
         [HttpGet] //get to get a list of Players
-        public JsonResult Get()
+        public string Get()
+        //public JsonResult Get()
+
         {
-            JsonResult js = new JsonResult(Players);
-            return js;
+            //this makes a Json array with a single object called Players, which is a List<Player>
+            //JsonResult js = new JsonResult(Players);
+            string json = JsonConvert.SerializeObject(Players, Formatting.Indented);
+
+            //return js;
+            return json;
         }
 
         // GET api/players/5
