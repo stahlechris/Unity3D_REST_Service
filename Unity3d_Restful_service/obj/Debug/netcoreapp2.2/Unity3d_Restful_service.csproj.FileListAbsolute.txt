@@ -1,0 +1,14 @@
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/bin/Debug/netcoreapp2.2/Unity3d_Restful_service.deps.json
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/bin/Debug/netcoreapp2.2/Unity3d_Restful_service.runtimeconfig.json
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/bin/Debug/netcoreapp2.2/Unity3d_Restful_service.runtimeconfig.dev.json
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/bin/Debug/netcoreapp2.2/Unity3d_Restful_service.dll
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/bin/Debug/netcoreapp2.2/Unity3d_Restful_service.pdb
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.csprojAssemblyReference.cache
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.csproj.CoreCompileInputs.cache
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.RazorAssemblyInfo.cache
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.RazorAssemblyInfo.cs
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.AssemblyInfoInputs.cache
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.AssemblyInfo.cs
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.RazorTargetAssemblyInfo.cache
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.dll
+/Users/stahle/Projects/Unity3d_Restful_service/Unity3d_Restful_service/obj/Debug/netcoreapp2.2/Unity3d_Restful_service.pdb
