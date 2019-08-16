@@ -20,6 +20,6 @@ namespace Unity3d_Restful_service
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
-                .UseUrls("https://*:5000");
+                .UseUrls("https://*:5000"); //the port number must be specified. Can't do a * for port
     }
 }
